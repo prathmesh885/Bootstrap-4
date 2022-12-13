@@ -1,0 +1,19 @@
+.testmonialslider .owl-prev,
+.testmonialslider .owl-next {
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+}
+
+.testmonialslider .owl-prev {
+    left: -50px;
+}
+
+.testmonialslider .owl-next {
+    right: -50px;
+}
+
+.testmonialslider .owl-prev>i,
+.testmonialslider .owl-next>i {
+    font-size: 48px;
+}

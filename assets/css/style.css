@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* css for navbar  */
+
+.appHeader .navbar-dark .navbar-nav .nav-link {
+	color: #ffff;
+	text-transform: uppercase;
+}
+
+.appHeader .navbar-brand {
+	width: 120px;
+	display: inline-block;
+}
+
+.appHeader .navbar-dark .navbar-nav .active>.nav-link,
+.appHeader .navbar-dark .navbar-nav .nav-link.active,
+.appHeader .navbar-dark .navbar-nav .nav-link.show,
+.appHeader .navbar-dark .navbar-nav .show>.nav-link {
+	color: orange !important;
+}
+
+
+/* .navbar-brand img {
+	width: 120px; 
+ } */
+
+.brandSlider .carousel-item {
+	height: 450px;
+}
+
+.brandSlider .carousel-item img {
+	height: 100%;
+	object-fit: cover;
+}
+
+.brandSlider .carousel-item {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.brandSlider .carousel-item img.d-block.w-100 {
+	height: 100%;
+	object-fit: cover;
+}
+
+.brandSlider .carousel-item:nth-child(1) {
+	background-image: url('/assets/images/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg');
+}
+
+.brandSlider .carousel-item:nth-child(2) {
+	background-image: url('/assets/images/timo-stern-iUBgeNeyVy8-unsplash.jpg');
+}
+
+.brandSlider .carousel-item:nth-child(3) {
+	background-image: url('/assets/images/eva-darron-oCdVtGFeDC0-unsplash.jpg');
+}
+
+.brandSlider .carousel-caption {
+	bottom: auto;
+	top: 20%;
+}
+
+
+/* homeHeading css */
+
+.homeHeading,
+.video {
+	background-image: url('/assets/images/sergei-a--heLWtuAN3c-unsplash.jpg');
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	background-attachment: fixed;
+	position: relative;
+}
+
+.homeHeading::before,
+.video::before {
+	content: '';
+	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.homeHeading .row {
+	z-index: 10;
+}
+
+/* Video */
+
+.video {
+	background-image: url("/assets/images/clay-banks-tCve83-KgaE-unsplash.jpg");
+}
+
+
+/* services page css */
+
+.faq .card {
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+
+/* .btn-link {
+	color: #ffff;
+	text-decoration: none;
+	width: 100%;
+	text-align: left;
+}
+ */
+
+
+
+.footer {
+	background-color: black;
+	font-size: 18px;
+}
+
+
+/* responsive css */
+
+@media all and (max-width:768px) {
+	.brandSlider .carousel-caption h2{
+		font-size: 1.4rem;
+	}
+}
+
