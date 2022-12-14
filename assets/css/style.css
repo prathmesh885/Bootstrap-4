@@ -68,13 +68,13 @@
 
 /* homeHeading css */
 
-.homeHeading,
-.video {
-	background-image: url('https://images.unsplash.com/photo-1588017104438-d559ef18ebbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHRyYXZlbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
-	/* background-repeat: no-repe; */
-	/* background-position: center; */
-	background-attachment: fixed;
-	position: relative;
+.homeHeading, .video {
+    background-image: url('https://images.unsplash.com/37/QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: relative;
 }
 
 .homeHeading::before,
